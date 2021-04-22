@@ -13,3 +13,7 @@
   box-shadow: $box-shadow-lg-default;
   @include border-radius($border-radius);
 }
+
+.modal-backdrop {
+  opacity:0.8 !important;
+}

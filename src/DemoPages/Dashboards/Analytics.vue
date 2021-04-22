@@ -77,6 +77,76 @@
                     <span class="mr-1">View Complete Report</span>
                 </button>
             </div>
+            <div>
+                <b-button v-b-modal.modal-center>Update</b-button>
+
+                <b-modal id="modal-center" centered title="Update User" hide-footer>
+                    <div>
+                            <b-form-group
+                                id="input-group-1"
+                                label="Username:"
+                                label-for="input-1"
+                            >
+                                <b-form-input
+                                    id="input-1"
+                                    type="text"
+                                    placeholder="username"
+                                    required
+                                ></b-form-input>
+                            </b-form-group>
+                            <b-form-group
+                                id="input-group-1"
+                                label="Email address:"
+                                label-for="input-1"
+                            >
+                                <b-form-input
+                                    id="input-1"
+                                    type="email"
+                                    placeholder="email"
+                                    required
+                                ></b-form-input>
+                            </b-form-group>
+                            <div class="text-center">
+                                <button class="btn btn-primary">Update</button>
+                            </div>
+
+                    </div>
+                </b-modal>
+                <b-button v-b-modal.modal-center2>Insert</b-button>
+
+                <b-modal id="modal-center2" centered title="Insert User" hide-footer>
+                    <div>
+                            <b-form-group
+                                id="input-group-1"
+                                label="Username:"
+                                label-for="input-1"
+                            >
+                                <b-form-input
+                                    id="input-1"
+                                    type="text"
+                                    placeholder="username"
+                                    required
+                                ></b-form-input>
+                            </b-form-group>
+                            <b-form-group
+                                id="input-group-1"
+                                label="Email address:"
+                                label-for="input-1"
+                            >
+                                <b-form-input
+                                    id="input-1"
+                                    type="email"
+                                    placeholder="email"
+                                    required
+                                ></b-form-input>
+                            </b-form-group>
+                            <div class="text-center">
+                                <button class="btn btn-primary">Insert</button>
+                            </div>
+
+                    </div>
+                </b-modal>
+            </div>
         </div>
         <div class="row">
             <div class="col-sm-12 col-lg-6">
