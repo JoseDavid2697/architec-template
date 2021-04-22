@@ -34,6 +34,20 @@
                 sidebarActive: false,
 
                 menu: [
+                     {
+                        header: true,
+                        title: 'User',
+                    },
+                    {
+                        title: 'List',
+                        icon: 'pe-7s-rocket',
+                        child: [
+                            {
+                                href: '/users',
+                                title: 'Users',
+                            },
+                        ]
+                    },
                     {
                         header: true,
                         title: 'Main Navigation',
