@@ -7,6 +7,7 @@ export default new Router({
     scrollBehavior() {
         return window.scrollTo({ top: 0, behavior: 'smooth' });
     },
+    
     routes: [
 
         // Dashboards
@@ -159,5 +160,12 @@ export default new Router({
             name: 'chartjs',
             component: () => import('../DemoPages/Charts/Chartjs.vue'),
         },
+        //USER
+        {
+            path: '/users',
+            name: 'user-list',
+            component: () => import('../DemoPages/UserList.vue'),
+        },
+
     ]
 })
